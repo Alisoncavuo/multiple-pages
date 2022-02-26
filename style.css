@@ -87,7 +87,7 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
   h1 {
     font-size: 65px;
     color: #e79dff;
@@ -98,7 +98,17 @@ p {
   p {
     font-size: 12px;
   }
+  body {
+    text-align: center;
+    background-color: #f5f2fe;
+  }
+
   .primary-link {
-    font-size: 13px;
+    font-size: 11px;
+    display: block;
+    margin: 0 auto;
+  }
+  img {
+    display: none;
   }
 }
