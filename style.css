@@ -87,16 +87,24 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 570px) {
+  body {
+    text-align: center;
+  }
+  img {
+    display: none !important;
+  }
   h1 {
-    font-size: 65px;
+    font-size: 40px;
     color: #e79dff;
   }
   h2 {
-    font-size: 35px;
+    font-size: 20px;
   }
   p {
     font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
   }
   body {
     text-align: center;
@@ -110,5 +118,8 @@ p {
   }
   img {
     display: none;
+  }
+  .email-link {
+    font-size: 16px;
   }
 }
