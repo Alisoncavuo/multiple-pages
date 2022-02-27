@@ -91,9 +91,10 @@ p {
   body {
     text-align: center;
   }
-  img {
-    display: none !important;
+  .img {
+    display: block !important;
   }
+
   h1 {
     font-size: 40px;
     color: #e79dff;
@@ -116,9 +117,7 @@ p {
     display: block;
     margin: 0 auto;
   }
-  img {
-    display: none;
-  }
+
   .email-link {
     font-size: 16px;
   }
