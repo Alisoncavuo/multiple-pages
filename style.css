@@ -88,9 +88,6 @@ p {
 }
 
 @media (max-width: 570px) {
-  body {
-    text-align: center;
-  }
   .img {
     display: block !important;
   }
@@ -107,10 +104,6 @@ p {
     text-align: center;
     margin: 0 auto;
   }
-  body {
-    text-align: center;
-    background-color: #f5f2fe;
-  }
 
   .primary-link {
     font-size: 11px;
@@ -123,5 +116,9 @@ p {
   }
   .alison {
     display: none;
+  }
+  body {
+    text-align: center;
+    background-color: rgb(222, 207, 250);
   }
 }
